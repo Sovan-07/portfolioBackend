@@ -1,7 +1,7 @@
 const express = require('express');
 require('dotenv').config();
 const cors = require('cors');
-const msgRoute = require("../portfolioBackend/routes/msgR")
+const msgRoute = require("../backend/routes/msgR")
 const app = express();
 const PORT = process.env.PORT || 3000;
 // const PORT = 3000;
